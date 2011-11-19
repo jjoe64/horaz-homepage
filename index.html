@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Horaz</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<img src="logo.png" id="logo" alt="" />
+			<h1>Horaz - Cross-Platform Mobile Java Framework</h1>
+		</header>
+		<div id="top-menu-container">
+			<ul id="top-menu">
+				<li class="selected"><a href="#">About</a></li>
+				<li><a href="#">Widgets</a></li>
+				<li><a href="#">Features</a></li>
+			</ul>
+			<div class="right">
+				<g:plusone href="https://plus.google.com/111229754077973611221"></g:plusone>
+			</div>
+		</div>
+		<div id="sub-menu-container">
+			<ul id="sub-menu">
+				<li class="pos1"><a class="selected" href="#">Intro</a></li>
+				<li class="pos2"><a href="#">IGNITE! Talk</a></li>
+				<li class="pos3"><a href="#">Google+ Page</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<img class="intro" src="content-intro.png" />
+			<h1>Same App, Different Platforms, Different Look&Feel</h1>
+			
+			<div class="coding-example">
+			
+				<!-- code 1 -->
+<pre style='color:#d1d1d1;background:#000000;'><span style='color:#9999a9; '>// get button</span>
+Button btn = Button.byId("button")<span style='color:#d2cd86; '>;</span>
+
+<span style='color:#9999a9; '>// set a tap (click) listener</span>
+btn.addTapListener(new TapListener() <span style='color:#b060b0; '>{</span>
+    <span style='color:#d2cd86; '>@</span>Override
+    <span style='color:#e66170; font-weight:bold; '>public</span> <span style='color:#bb7977; '>void</span> onTap<span style='color:#d2cd86; '>(</span><span style='color:#bb7977; font-weight:bold; '>Event</span> event<span style='color:#d2cd86; '>)</span> <span style='color:#b060b0; '>{</span>
+        <span style='color:#9999a9; '>// show the toast notification</span>
+        <span style='color:#e66170; font-weight:bold; '>new</span> Toast<span style='color:#d2cd86; '>(</span><span style='color:#00c4c4; '>"I love Horaz!"</span><span style='color:#d2cd86; '>,</span>
+            Duration<span style='color:#d2cd86; '>.</span>SHORT<span style='color:#d2cd86; '>)</span><span style='color:#d2cd86; '>.</span>show<span style='color:#d2cd86; '>(</span><span style='color:#d2cd86; '>)</span><span style='color:#b060b0; '>;</span>
+    <span style='color:#b060b0; '>}</span>
+<span style='color:#b060b0; '>}</span>)<span style='color:#d2cd86; '>;</span>
+</pre>
+				<!-- end code 1 -->
+			
+				<!-- code 2 -->
+<pre style='color:#d1d1d1;background:#000000;'><span style='color:#ff8906; '>&lt;</span><span style='color:#e66170; font-weight:bold; '>div</span> data-role<span style='color:#d2cd86; '>=</span><span style='color:#00c4c4; '>"content"</span><span style='color:#ff8906; '>></span>
+    <span style='color:#ff8906; '>&lt;</span><span style='color:#e66170; font-weight:bold; '>p</span><span style='color:#ff8906; '>></span>This is a sample app<span style='color:#00a800; '>.</span><span style='color:#ff8906; '>&lt;/</span><span style='color:#e66170; font-weight:bold; '>p</span><span style='color:#ff8906; '>></span>
+    <span style='color:#ff8906; '>&lt;</span><span style='color:#e66170; font-weight:bold; '>a</span> data-role<span style='color:#d2cd86; '>=</span><span style='color:#00c4c4; '>"button"</span> id<span style='color:#d2cd86; '>=</span><span style='color:#00c4c4; '>"button"</span><span style='color:#ff8906; '>></span>
+        Click me!
+    <span style='color:#ff8906; '>&lt;/</span><span style='color:#e66170; font-weight:bold; '>a</span><span style='color:#ff8906; '>></span>
+<span style='color:#ff8906; '>&lt;/</span><span style='color:#e66170; font-weight:bold; '>div</span><span style='color:#ff8906; '>></span>
+</pre>
+				<!-- end code 2 -->
+			
+			
+			</div>
+		</div>
+		<footer>
+			<p>&copy; Joe's App Factory UG (haftungsbeschr&auml;nkt)</p>
+		</footer>
+		
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+	</body>
+</html>
+

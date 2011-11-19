@@ -1,0 +1,163 @@
+/* colors */
+$color-dark-grey: #444
+$color-middle-grey: #666
+$color-light-grey: #cecece
+
+/* mixins */
+@mixin font-menu
+	font-family: Ubuntu
+	font-size: 12pt
+	text-decoration: none
+	color: white
+	
+@mixin transform($deg)
+	transform: rotate($deg)
+	-webkit-transform: rotate($deg)
+	-moz-transform: rotate($deg)
+	-o-transform: rotate($deg)
+	
+/* reset */
+body, html, header, h1, ul
+	padding: 0
+	margin: 0
+
+/* layout */
+html
+	background: url("background-stripes.gif")
+
+body
+	width: 1000px
+	margin: auto
+	border: 1px solid $color-dark-grey
+	background-color: #fff
+	
+header
+	background-color: $color-light-grey
+	height: 80px
+	text-align: center
+	position: relative
+	
+	img#logo
+		position: absolute
+		right: 0
+		top: 0
+		height: 80px
+		
+	h1
+		font-size: 12pt
+		font-weight: normal
+
+#top-menu-container
+	background-color: $color-dark-grey
+	height: 40px
+	border-bottom: 1px solid $color-middle-grey
+	position: relative
+	
+	ul#top-menu
+		list-style: none
+		
+		li
+			height: 37px
+			float: left
+			width: 100px			
+			text-align: center
+			border-top: 3px solid transparent
+			
+			a
+				display: block
+				margin-top: 5px
+				@include font-menu
+			
+			&.selected
+				border-top: 3px solid red
+				
+			&:hover
+				background-color: $color-middle-grey
+				
+	.right
+		position: absolute
+		top: 3px
+		right: 10px
+		
+#sub-menu-container
+	background-color: $color-dark-grey
+	background-image: url("submenu-bg.png")
+	background-position: 0 bottom
+	background-repeat: no-repeat
+	height: 115px
+	border-top: 1px solid black
+	
+	ul#sub-menu
+		position: relative
+		list-style: none
+		
+		li
+			position: absolute
+			display: block
+			
+			a
+				border-top: 3px solid transparent
+				@include font-menu
+		
+				&.selected
+					border-top: 3px solid red
+			&.pos1
+				left: 20px
+				top: 72px
+				@include transform(-16deg)
+				
+			&.pos2
+				left: 140px
+				top: 37px
+				@include transform(-7deg)
+				
+			&.pos3
+				left: 320px
+				top: 20px
+				
+			&:hover
+				background-color: $color-middle-grey
+				
+#content
+	margin-top: -40px
+	
+	img.intro
+		margin: 0 auto
+		display: block
+		
+	h1
+		font-familiy: Ubuntu
+		font-style: italic
+		text-align: center
+		font-weight: normal
+		color: $color-dark-grey
+		
+	.coding-example
+		padding-top: 20px
+		height: 270px
+		margin: 0 45px
+		
+		pre
+			height: 250px
+			padding: 5px
+			overflow: auto
+			width: 420px
+			float: left
+			margin: 0 6px
+			border: 3px solid $color-middle-grey
+
+footer
+	background-image: url("footer-bg.png")
+	background-color: $color-dark-grey
+	height: 68px
+	position: relative
+	
+	p
+		position: absolute
+		left: 3px
+		bottom: 3px
+		margin: 0
+		padding: 0
+		color: white
+		font-family: Ubuntu
+		font-size: 8pt
