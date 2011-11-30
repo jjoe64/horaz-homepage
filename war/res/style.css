@@ -125,6 +125,11 @@ header {
       float: left;
       margin: 0 6px;
       border: 3px solid #666666; }
+  #content #gp_iframe {
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    border: 1px solid black; }
 
 footer {
   background-image: url("footer-bg.png");
