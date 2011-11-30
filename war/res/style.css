@@ -22,7 +22,7 @@ header {
   position: relative; }
   header img#logo {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
     height: 80px; }
   header h1 {
@@ -57,7 +57,8 @@ header {
   #top-menu-container .right {
     position: absolute;
     top: 8px;
-    right: 10px; }
+    right: 10px;
+    z-index: 10; }
 
 #sub-menu-container {
   background-color: #444444;
