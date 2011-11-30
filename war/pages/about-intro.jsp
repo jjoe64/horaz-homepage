@@ -1,33 +1,6 @@
-<!doctype html>
-<html>
-	<head>
-		<title>Horaz</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<header>
-			<img src="logo.png" id="logo" alt="" />
-			<h1>Horaz - Cross-Platform Mobile Java Framework</h1>
-		</header>
-		<div id="top-menu-container">
-			<ul id="top-menu">
-				<li class="selected"><a href="#">About</a></li>
-				<li><a href="#">Widgets</a></li>
-				<li><a href="#">Features</a></li>
-			</ul>
-			<div class="right">
-				<g:plusone href="https://plus.google.com/111229754077973611221"></g:plusone>
-			</div>
-		</div>
-		<div id="sub-menu-container">
-			<ul id="sub-menu">
-				<li class="pos1"><a class="selected" href="#">Intro</a></li>
-				<li class="pos2"><a href="#">IGNITE! Talk</a></li>
-				<li class="pos3"><a href="#">Google+ Page</a></li>
-			</ul>
-		</div>
-		<div id="content">
-			<img class="intro" src="content-intro.png" />
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+			<img class="intro" src="/res/content-intro.png" />
 			<h1>Same App, Different Platforms, Different Look&Feel</h1>
 			
 			<div class="coding-example">
@@ -60,12 +33,3 @@ btn.addTapListener(new TapListener() <span style='color:#b060b0; '>{</span>
 			
 			
 			</div>
-		</div>
-		<footer>
-			<p>&copy; Joe's App Factory UG (haftungsbeschr&auml;nkt)</p>
-		</footer>
-		
-		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-	</body>
-</html>
-

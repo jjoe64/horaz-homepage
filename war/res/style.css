@@ -50,12 +50,13 @@ header {
         text-decoration: none;
         color: white; }
       #top-menu-container ul#top-menu li.selected {
-        border-top: 3px solid red; }
+        border-top: 3px solid red;
+        font-weight: bold; }
       #top-menu-container ul#top-menu li:hover {
         background-color: #666666; }
   #top-menu-container .right {
     position: absolute;
-    top: 3px;
+    top: 8px;
     right: 10px; }
 
 #sub-menu-container {
@@ -78,7 +79,8 @@ header {
         text-decoration: none;
         color: white; }
         #sub-menu-container ul#sub-menu li a.selected {
-          border-top: 3px solid red; }
+          border-top: 3px solid red;
+          font-weight: bold; }
       #sub-menu-container ul#sub-menu li.pos1 {
         left: 20px;
         top: 72px;
