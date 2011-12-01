@@ -26,8 +26,11 @@ header {
     top: 0;
     height: 80px; }
   header h1 {
-    font-size: 12pt;
-    font-weight: normal; }
+    font-familiy: Ubuntu;
+    text-align: center;
+    font-weight: normal;
+    color: #444444;
+    padding-top: 15px; }
 
 #top-menu-container {
   background-color: #444444;
@@ -39,7 +42,7 @@ header {
     #top-menu-container ul#top-menu li {
       height: 37px;
       float: left;
-      width: 100px;
+      min-width: 100px;
       text-align: center;
       border-top: 3px solid transparent; }
       #top-menu-container ul#top-menu li a {
@@ -84,11 +87,11 @@ header {
           font-weight: bold; }
       #sub-menu-container ul#sub-menu li.pos1 {
         left: 20px;
-        top: 72px;
-        transform: rotate(-16deg);
-        -webkit-transform: rotate(-16deg);
-        -moz-transform: rotate(-16deg);
-        -o-transform: rotate(-16deg); }
+        top: 66px;
+        transform: rotate(-15.5deg);
+        -webkit-transform: rotate(-15.5deg);
+        -moz-transform: rotate(-15.5deg);
+        -o-transform: rotate(-15.5deg); }
       #sub-menu-container ul#sub-menu li.pos2 {
         left: 140px;
         top: 37px;
@@ -113,6 +116,9 @@ header {
     text-align: center;
     font-weight: normal;
     color: #444444; }
+  #content .centered_content {
+    width: 900px;
+    margin: 0 auto; }
   #content .coding-example {
     padding-top: 20px;
     height: 270px;

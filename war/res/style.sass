@@ -44,8 +44,11 @@ header
 		height: 80px
 		
 	h1
-		font-size: 12pt
+		font-familiy: Ubuntu
+		text-align: center
 		font-weight: normal
+		color: $color-dark-grey
+		padding-top: 15px
 
 #top-menu-container
 	background-color: $color-dark-grey
@@ -59,7 +62,7 @@ header
 		li
 			height: 37px
 			float: left
-			width: 100px			
+			min-width: 100px
 			text-align: center
 			border-top: 3px solid transparent
 			
@@ -107,8 +110,8 @@ header
 					
 			&.pos1
 				left: 20px
-				top: 72px
-				@include transform(-16deg)
+				top: 66px
+				@include transform(-15.5deg)
 				
 			&.pos2
 				left: 140px
@@ -135,6 +138,10 @@ header
 		text-align: center
 		font-weight: normal
 		color: $color-dark-grey
+	
+	.centered_content
+		width: 900px
+		margin: 0 auto
 		
 	.coding-example
 		padding-top: 20px
