@@ -4,6 +4,8 @@
 	<head>
 		<title>Horaz</title>
 		<link rel="stylesheet" href="/res/style.css" />
+		<script type="text/javascript" src="/res/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="/res/script.js"></script>
 	</head>
 	<body>
 		<header>
