@@ -25,6 +25,8 @@ public class Horaz_homepage_gaeServlet extends HttpServlet {
 			includeJsp = "/"+includeJsp.substring(1);
 		}
 
+		if (includeJsp.indexOf('-') == -1) return;
+
 		String includeNav = includeJsp.substring(0, includeJsp.indexOf('-'))+".jsp";
 		// draw JSP
 		req.setAttribute("includeJspContent", "/pages"+includeJsp);

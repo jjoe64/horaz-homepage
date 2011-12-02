@@ -21,6 +21,9 @@ body, html, header, h1, ul
 	padding: 0
 	margin: 0
 
+p, h1, h2, h3, a
+	font-family: Arial, sans-serif
+
 /* layout */
 html
 	background: url("background-stripes.gif")
@@ -122,6 +125,16 @@ header
 				left: 320px
 				top: 20px
 				
+			&.pos4
+				left: 470px
+				top: 20px
+				@include transform(3deg)
+
+			&.pos5
+				left: 600px
+				top: 25px
+				@include transform(5deg)
+
 			&:hover
 				background-color: $color-middle-grey
 				
