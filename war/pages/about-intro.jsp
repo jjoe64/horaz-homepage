@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 			<img class="intro" src="/res/content-intro.png" />
-			<h1>Same App, Different Platforms, Different Look&Feel</h1>
+			<h1>Same Code, Different Platforms, Native Look&Feel</h1>
 			
 			<div class="coding-example">
 			
