@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
+			<p class="intro_title_box">It's like a jQuery mobile wrapper for GWT + data binding and much more extensions.</p>
 			<img class="intro" src="/res/content-intro.png" />
 			<h1>Same Code, Different Platforms, Native Look&Feel</h1>
 			
