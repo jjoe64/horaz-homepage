@@ -9,7 +9,7 @@
 	<a href="http://www.eclipse.org/">http://www.eclipse.org/</a></li>
 	<li>Install GWT Plugin for Eclipse<br>
 	<a href="http://code.google.com/intl/de-DE/eclipse/docs/getting_started.html">http://code.google.com/intl/de-DE/eclipse/docs/getting_started.html</a></li>
-	<li><a href="http://code.google.com/intl/de-DE/eclipse/docs/getting_started.html"></a>Download latest Horaz</li></ul>
+	</ul>
 	
 	<h3>Step 2: Clone Hello World Project</h3>
 	<ul><li>Install git</li><li>Clone&nbsp;<a href="https://github.com/jjoe64/horaz-helloworld">https://github.com/jjoe64/horaz-helloworld</a><br><font face="'courier new', monospace">git clone&nbsp;<a href="https://github.com/jjoe64/horaz-helloworld">https://github.com/jjoe64/horaz-helloworld</a></font></li><li>Import this project into Eclipse</li></ul>

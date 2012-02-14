@@ -2,7 +2,7 @@
 <div id="top-menu-container">
 	<ul id="top-menu">
 		<li><a href="/about/intro.html">About</a></li>
-		<li><a href="/widgets/button.html">Widgets &amp; Docs</a></li>
+		<li><a href="/widgets/widgets/button.html">Widgets &amp; Docs</a></li>
 		<li><a href="/features/start.html">Features</a></li>
 		<li><a href="/showcase/todolist.html">Showcase</a></li>
 		<li><a href="/getstarted/helloworld.html">Get started</a></li>

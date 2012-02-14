@@ -122,6 +122,13 @@ header {
       #sub-menu-container ul#sub-menu li:hover {
         background-color: #666666; }
 
+#sub2-menu {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center; }
+  #sub2-menu a.selected {
+    font-weight: bold; }
+
 #content {
   margin-top: -40px; }
   #content .intro_title_box {

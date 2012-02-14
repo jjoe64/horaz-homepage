@@ -2,10 +2,8 @@
 
 <div id="sub-menu-container">
 	<ul id="sub-menu">
-		<li class="pos1"><a href="/widgets/button.html">Button</a></li>
-		<li class="pos2"><a href="/widgets/listview.html">ListView</a></li>
-		<li class="pos3"><a href="/widgets/page.html">Page / Dialog</a></li>
-		<li class="pos4"><a href="/widgets/toolbar.html">Toolbar</a></li>
-		<li class="pos5"><a href="http://sites.google.com/site/horazlang/dev-guide" target="_blank">more ...</a></li>
+		<li class="pos2"><a href="/widgets/widgets/button.html">Widgets &amp; Layout</a></li>
+		<li class="pos3"><a href="/widgets/databinding/basemodel.html">Data-Binding</a></li>
+		<li class="pos4"><a href="http://jjoe64.github.com/horaz/" target="_blank">API Reference</a></li>
 	</ul>
 </div>

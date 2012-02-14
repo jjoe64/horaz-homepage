@@ -27,10 +27,17 @@ public class Horaz_homepage_gaeServlet extends HttpServlet {
 
 		if (includeJsp.indexOf('-') == -1) return;
 
-		String includeNav = includeJsp.substring(0, includeJsp.indexOf('-'))+".jsp";
+		String includeSubNav = includeJsp.substring(0, includeJsp.indexOf('-'))+".jsp";
+
+		// 3. ebene
+		if (includeJsp.indexOf('-', includeJsp.indexOf('-')+1) != -1) {
+			String includeSub2Nav = includeJsp.substring(0, includeJsp.indexOf('-', includeJsp.indexOf('-')+1))+".jsp";
+			req.setAttribute("includeJspSub2Navigation", "/sub-navigation"+includeSub2Nav);
+		}
+
 		// draw JSP
 		req.setAttribute("includeJspContent", "/pages"+includeJsp);
-		req.setAttribute("includeJspNavigation", "/sub-navigation"+includeNav);
+		req.setAttribute("includeJspSubNavigation", "/sub-navigation"+includeSubNav);
 		try {
 			req.getRequestDispatcher("/index.jsp").include(req, resp);
 		} catch (ServletException e) {
