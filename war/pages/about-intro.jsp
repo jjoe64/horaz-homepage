@@ -1,6 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 			<p class="intro_title_box">It's like a jQuery mobile wrapper for GWT + data binding and much more extensions.</p>
+			<!-- 
 			<img class="intro" src="/res/content-intro.png" />
+			-->
+			<iframe class="intro" src="https://docs.google.com/presentation/embed?id=1uuNGl5JcI09WrVa8HDHwJanwswg3AYI3nOP5c4Nk2jo&start=true&loop=true&delayms=3000" frameborder="0" width="480" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 			<h1>Same Code, Different Platforms, Native Look&Feel</h1>
 			
 			<div class="coding-example">

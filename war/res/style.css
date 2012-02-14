@@ -136,8 +136,8 @@ header {
     text-align: center;
     font-weight: bold;
     color: #444444; }
-  #content img.intro {
-    margin: 0 auto;
+  #content .intro {
+    margin: 0 auto 15px auto;
     display: block; }
   #content h1 {
     font-familiy: Ubuntu;
