@@ -1,5 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-			<p class="intro_title_box">It's like a jQuery mobile wrapper for GWT + data binding and much more extensions.</p>
+			<p class="intro_title_box">
+				A jQuery mobile wrapper for GWT, inclusive data binding and much more plugins to build native-looking web apps for Android and iPhone smartphones.
+			</p>
 			<!-- 
 			<img class="intro" src="/res/content-intro.png" />
 			-->

@@ -6,7 +6,7 @@
 		<li><a href="/features/start.html">Features</a></li>
 		<li><a href="/showcase/todolist.html">Showcase</a></li>
 		<li><a href="/getstarted/helloworld.html">Get started</a></li>
-		<li><a href="/tutorial/start.html">Tutorial</a></li>
+		<li><a href="/tutorial/start.html">Tutorials</a></li>
 	</ul>
 	<div class="right">
 		<g:plusone href="https://plus.google.com/111229754077973611221"></g:plusone>
